@@ -7,7 +7,7 @@ Date = str(date.today())
 parser = argparse.ArgumentParser()
 parser.add_argument("link")
 # :param link: Enter link for the qrcode
-parser.add_argument("-f","--filename", default=date + ".png")
+parser.add_argument("-f","--filename", default=Date + ".png")
 # :param filename: Enter filename for the qrcode
 parser.add_argument("-l","--location", default="~/Downloads/")
 # :param location: Enter directory for the qrcode
